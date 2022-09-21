@@ -54,6 +54,7 @@ const fakeStore = useFakeStore();
 const fakePosts = computed(() => fakeStore.list);
 
 onMounted(() => {
+  console.log('APP MODE', process.env.APP_MODE);
   fakeStore.fetchFakePosts().then((res) => {
     console.log('FAKE RESPONSE =>', res);
   });
