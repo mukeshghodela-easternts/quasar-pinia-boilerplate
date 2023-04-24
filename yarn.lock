@@ -326,6 +326,11 @@
     "@typescript-eslint/types" "5.33.0"
     eslint-visitor-keys "^3.3.0"
 
+"@vercel/edge-config@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@vercel/edge-config/-/edge-config-0.1.7.tgz#1d65e4353dd969caf26190fa4525cc20cf1d7791"
+  integrity sha512-mXKotO6Tss6Ke6mhHC21m6EggV3hO9RrxUgKEUbOb/KY+IJKl35wKKCYuFCDLXtwk9OfpJkQbXeu/MiIjseAOw==
+
 "@vitejs/plugin-vue@^2.2.0":
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-2.3.4.tgz#966a6279060eb2d9d1a02ea1a331af071afdcf9e"

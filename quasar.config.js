@@ -62,7 +62,10 @@ module.exports = configure(function (/* ctx */) {
 
       // publicPath: '/',
       // analyze: true,
-      // env: {},
+      env: {
+        EDGE_CONFIG:
+          'https://edge-config.vercel.com/ecfg_xydzz6v5frybzkofi213vlywnbur?token=5bddb33e-0fb4-4402-b1a5-64b572eed04e',
+      },
       // rawDefine: {}
       // ignorePublicFolder: true,
       // minify: false,
